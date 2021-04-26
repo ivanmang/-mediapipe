@@ -51,7 +51,7 @@ node {
 
 # Calculates refined face ROI.
 node {
-  calculator: "FaceDetectionFrontDetectionsToRoi",
+  calculator: "FaceDetectionFrontDetectionsToRoi"
   input_stream: "DETECTIONS:face_detections"
   input_stream: "IMAGE_SIZE:image_size"
   output_stream: "ROI:face_roi_from_detection"

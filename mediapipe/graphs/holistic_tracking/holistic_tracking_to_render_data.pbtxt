@@ -13,7 +13,7 @@ input_stream: "LEFT_HAND_LANDMARKS:left_hand_landmarks"
 # Right hand landmarks. (NormalizedLandmarkList)
 input_stream: "RIGHT_HAND_LANDMARKS:right_hand_landmarks"
 # Face landmarks. (NormalizedLandmarkList)
-input_stream: "FACE_LANDMARKS:face_landmarks"
+input_stream: "UPDATED_FACE_LANDMARKS:face_landmarks"
 
 # Whether to render the full set of pose landmarks, or only those on the
 # upper body. If unspecified, functions as set to false. (bool)

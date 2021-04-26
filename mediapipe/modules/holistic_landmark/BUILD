@@ -248,6 +248,8 @@ mediapipe_simple_subgraph(
         ":hand_landmarks_left_and_right_gpu",
         "//mediapipe/calculators/core:flow_limiter_calculator",
         "//mediapipe/calculators/image:image_transformation_calculator",
+        "//mediapipe/modules/iris_landmark:iris_landmark_gpu",
+        "//mediapipe/modules/iris_landmark:iris_landmark_left_and_right_from_face_landmarks_gpu",
         "//mediapipe/modules/pose_landmark:pose_landmark_gpu",
     ],
 )
